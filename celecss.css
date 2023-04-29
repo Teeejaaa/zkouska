@@ -1,0 +1,240 @@
+html{
+    overflow-y:scroll;
+    }
+    
+    body{
+    margin:0;
+    padding:0;
+    color:#c8cbc8;
+    background-color: #4a5b79;
+    }
+    
+    /*odsunuti pomoci tecky*/
+    .clear:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    line-height:0;
+    }
+    
+    .clear{
+    
+    clear:both;
+    
+    }
+    
+    a{
+    outline:none;
+    text-decoration:none;
+    }
+    
+   
+   article,footer, header, nav, section{
+    margin:0; 
+    padding:0;
+    }
+    
+    
+    .row1 a{
+    color:#4a5b79;
+    }
+    
+    .row2{
+    color:#4a5b79;
+    background-color:#ffff;
+    }
+    
+    .row2 a{
+    color:#4a5b79;
+    background-color:#ffff;
+    }
+    
+    .row3{
+    color:#989898;
+    background-color:#4a5b79;
+    }
+    
+    .row3 a{
+    color:#c8cbc8;
+    
+    }
+    
+    .row4 a{
+    color:#c8cbc8;
+    
+    }
+    
+    
+    
+    #header, #container, #footer, #copyright{
+    width:960px;
+    margin:0 auto;
+    }
+    
+
+    /*navigace*/
+    nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+    
+    
+    .linkyf{
+    margin:0 20px 0 0;
+    
+    }
+    
+    
+    .postaveni{
+    float:left;
+    width: 290px;
+    margin-left: 55px;
+
+    
+    }
+
+    .postaveni:first-child{
+    margin-left: 0;
+    }
+    
+    .lastbox{
+    margin-right:0;
+    }
+    
+    .ob {
+      float:right;
+    }
+    
+    .postaveni2{
+    width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    }
+
+    #header{
+    padding:20px 0;
+    }
+    
+   
+    /*postaveni headru a vyberove nabidky nahore*/
+    #header nav{
+    display:block;
+    float:right;
+    margin:-20px 0 20px 0;
+    padding:20px 0;
+    color: #4a5b79;
+    background-color:#c8cbc8;
+    }
+    
+    /*vyberova nabidka padding*/
+    #header nav ul{
+    padding:0 20px;
+    }
+    
+    /*nabidka uprava slov atd*/
+    #header nav li{
+    display:inline;
+    margin-right:25px;
+    text-transform:uppercase;
+    }
+    
+    #header nav li.last{
+    margin-right:0;
+    }
+    
+    
+    /*po najeti mysi*/
+   a:hover{
+    color:#111;
+    
+    }
+    
+
+    #homepage{
+    width:100%;
+    margin:0 0 30px 0;
+    padding-top: 30px;
+    }
+    
+    
+    /*nadpisy cosplaye atd h2 jenom*/
+    #homepage #intro article h2{
+    font-size:14px;
+    
+    }
+    #homepage #intro{
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+    
+    }
+    
+    #homepage #help {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    
+    #footer{
+    padding:30px 0;
+    line-height:1.4em;
+    
+    }
+    
+    
+    #footer section h2.title{
+    margin:0 0 25px 0;
+    padding:0;
+    color:#c8cbc8;
+    font-weight:bold;
+    font-size: 15px;
+    text-transform:uppercase;
+    }
+    
+    #footer section nav li{
+    margin:0 0 5px 0;
+    padding:0 0 5px 0;
+    text-transform:uppercase;
+    }
+    
+    #footer section nav li.last{
+      margin:0;
+    }
+    
+    
+    #copyright{
+    padding:20px 0;
+    }
+    
+    #copyright p{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    }
+
+
+
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+    h2 a {
+      font-size: 18px;
+    }
+    p {
+      font-size: 15px;
+    }
+    li a {
+      font-size: 15px;
+    }
+    .linkyf li a {
+      font-size: 12px;
+    }
+   
+    
+    
