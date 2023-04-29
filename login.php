@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="celecss.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Hlavní stránka</title>
+    <title>Document</title>
 </head>
 <body>
     
@@ -34,41 +34,13 @@
 
 <div id="homepage" class="clear row2">
 
-    <section id="intro" class="clear">
-
-        <article class="postaveni">
-
-            <img  src="images/demo/290x180.gif" width="290" height="180">
-            <h2><a href="cosplays.html">Cosplaye</a></h2>
-              <p>Neco o te akci</p>
-
-        </article>
-
-        <article class="postaveni">
-
-            <img src="images/demo/290x180.gif" width="290" height="180">
-            <h2><a href="speech.html">Přednáška</a></h2>
-              <p>Neco o te akci</p>
-
-        </article>
-
-        <article class="postaveni lastbox">
-
-            <img src="images/demo/290x180.gif" width="290" height="180">
-            <h2><a href="puzzle.html">Cesta po hádankách</a></h2>
-            <p>necoo o teto akci</p>
-
-        </article>
-
-    </section>
 
     <section id="help" class="last clear">
         <article class="postaveni2">
             
             <img class= "ob" src="images/demo/450x250.gif" width="450" height="250" alt="">
-            <h2>Spoluprace</h2>
-              <p>Lidi neco o atd</p>
-              <p>"neco o spolupraci nasi skoly +Gug</p>
+            <h2>Přihlášení</h2>
+             
 
 
         </article>
@@ -101,7 +73,7 @@
 
     <footer id="copyright" class="clear">
 
-        <p>Copyright &copy; 2018 - All Rights Reserved</p>
+        <p>Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
 
       </footer>
 
