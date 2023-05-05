@@ -88,6 +88,7 @@ html{
     }
     
     
+    
     .postaveni{
     float:left;
     width: 290px;
@@ -177,7 +178,25 @@ html{
       padding-top: 30px;
       padding-bottom: 30px;
     }
+
+    #homepage h2 .pors {
+      text-align: center;
+    }
+
+    #homepage form {
+      text-align:center ;
+    }
     
+    #homepage form h2 {
+      margin-left: -100px;
+    }
+
+    #homepage form input { 
+      margin-bottom: 20px;
+      margin-left: 10px;
+      
+
+    }
     #footer{
     padding:30px 0;
     line-height:1.4em;
