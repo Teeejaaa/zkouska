@@ -179,16 +179,30 @@ html{
       padding-bottom: 30px;
     }
 
-    #homepage h2 .pors {
+    #homepage .pors {
       text-align: center;
     }
 
     #homepage form {
-      text-align:center ;
+    /*  text-align:center ;*/
+      display: block;
+      border: #4a5b79 solid 2px;
+      width: 50%;
     }
     
     #homepage form h2 {
       margin-left: -100px;
+    }
+
+    #homepage .pozice {
+      text-align: center;
+
+    }
+    
+    #homepage form .input_fr {
+
+      margin-top: 10px;
+
     }
 
     #homepage form input { 
