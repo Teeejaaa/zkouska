@@ -1,4 +1,4 @@
-html{
+  html{
     overflow-y:scroll;
     }
     
@@ -25,11 +25,24 @@ html{
     
     }
     
+
+     .row1 .rn a{
+      color:#111;
+     
+    }
+
+
     a{
     outline:none;
     text-decoration:none;
     }
     
+
+    img {
+      /*
+    filter: drop-shadow(0 0 20px #121212);
+*/
+    }
    
    article,footer, header, nav, section{
     margin:0; 
@@ -113,6 +126,7 @@ html{
     width: 980px;
     margin: 0 auto;
     overflow: hidden;
+   
 
     }
 
@@ -179,19 +193,15 @@ html{
       padding-bottom: 30px;
     }
 
-    #homepage .pors {
-      text-align: center;
-    }
 
     #homepage form {
-    /*  text-align:center ;*/
-      display: block;
-      border: #4a5b79 solid 2px;
-      width: 50%;
+      float: center;
+
     }
-    
-    #homepage form h2 {
-      margin-left: -100px;
+
+    #homepage form .pors {
+      
+      text-align: center;
     }
 
     #homepage .pozice {
@@ -205,8 +215,14 @@ html{
 
     }
 
+    #homepage form .last_input {
+      margin-bottom: 15px;
+
+
+    }
+
     #homepage form input { 
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       margin-left: 10px;
       
 
@@ -260,7 +276,9 @@ html{
       font-size: 18px;
     }
     p {
-      font-size: 15px;
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 3px;
     }
     li a {
       font-size: 15px;
